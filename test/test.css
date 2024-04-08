@@ -1,0 +1,36 @@
+.test1 {
+    position: fixed;
+    height: 200px; 
+    background-color: red;
+    width: 200px;
+    right: -200px;
+    transition-duration: 0.5s;
+}
+
+.test2{
+    right: 0px;
+    position: fixed;
+    height: 200px; 
+    background-color: red;
+    width: 200px;
+    transition-duration: 0.5s;
+}
+
+body{
+    background-color: bisque;
+    overflow-x: hidden; 
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.33;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.no-shadow{
+    transition-duration: 0.5s;
+}

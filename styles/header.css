@@ -1,0 +1,91 @@
+/* ROOT */
+:root {
+    --dark_color: #332e3C;
+    --main_color: #C4B2BC;
+    --main2_color: #D8D4F2;
+    --secondary_color: #A29587;
+    --secondary2_color: #846C5B;
+    }
+    
+    html body{
+        background-color: var(--main_color);
+    }
+    
+
+.skiplink a:not(:focus) {
+    position: fixed;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+    
+.skiplink ul{
+    list-style-type: none;
+    
+}
+
+/* HEADER */
+header{
+    background-color: var(--main_color);
+}
+header a.without{
+    text-decoration: none;
+}
+.logo{
+    color: var(--dark_color);
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.identite_visuel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.identite_visuel a{
+    color: var(--dark_color)
+}
+
+
+
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 0px;
+}
+.main-nav li {
+    margin-right: 20px; 
+}
+.sticky-nav li:last-child {
+    margin-right: 0; 
+}
+.main-nav a{
+    color: var(--secondary2_color);
+    font-size: x-large;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+.main-nav a:hover{
+    color: var(--main_color);
+    background-color: var(--secondary2_color) ;
+}
+
+.div-identite a{
+   padding: 5px;
+}
+
+.background-nav{
+    background-color: var(--dark_color);
+}
+
+.login{
+    margin-left: 5px;
+}

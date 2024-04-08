@@ -1,0 +1,153 @@
+/* ROOT */
+:root {
+--dark_color: #332e3C;
+--main_color: #C4B2BC;
+--main2_color: #D8D4F2;
+--secondary_color: #A29587;
+--secondary2_color: #846C5B;
+}
+
+html body{
+    background-color: var(--main_color);
+}
+
+
+/* MAIN */
+/* Héro */
+.row div{
+    position: relative;
+    overflow: hidden;   
+    height: 250px;
+    padding: 0px;
+}
+
+.row div img{
+    width: 100%;
+    height: 100%;
+}
+
+.limit{
+    max-width: 1531px;
+}
+
+/* Section 1 */
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.recommande{
+    display: flex;
+    justify-content: center;
+}
+
+.div-tout-voir{
+    display: flex;
+    justify-content: center;
+}
+.tout-voir{
+    text-decoration: none;
+    color: var(--dark_color);
+    font-weight: bold;
+    border: 2px solid var(--dark_color);
+    padding: 10px;
+    margin: 10px 0px;
+    transition: color 0.5s ease;
+}
+
+
+.tout-voir:hover{
+    color: var(--main_color);
+    background-color: var(--dark_color);
+    border-color: var(--main_color);
+}
+
+.picture-for-card{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.picture-for-card a{
+    margin-left: 5px;
+}
+
+.region{
+    font-weight: bolder;
+    color: var(--secondary2_color);
+}
+.prix{
+font-weight: bolder;
+font-size: x-large;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+/* Section 2 */
+.section-dark{
+    background-color: var(--dark_color);
+}
+h2.best-game{
+    color: var(--secondary2_color);
+    padding-top: 10px;
+}
+
+.div-tout-voir2{
+    display: flex;
+    justify-content: center;
+}
+
+.tout-voir2{
+    text-decoration: none;
+    color: var(--main_color);
+    font-weight: bold;
+    border: 2px solid var(--main_color);
+    padding: 10px;
+    margin: 10px 0px;
+    transition: color 0.5s ease;
+}
+
+.tout-voir2:hover{
+    color: var(--dark_color);
+    background-color: var(--main_color);
+    border-color: var(--dark_color);
+}
+/* Section 3 */
+.recharges{
+    padding-top: 10px;
+}
+
+/* Section dernière */
+.test{
+    border: 5px solid var(--main_color);
+    background-color: var(--dark_color);
+    width: 150px;
+    height: 140px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    transition: color 0.5s  ease;
+}
+.test:hover{
+    border: 5px solid var(--secondary2_color);
+}
+
+.test2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.test p{
+    color: var(--main_color);
+}
+

@@ -1,0 +1,82 @@
+/* ROOT */
+:root {
+    --dark_color: #332e3C;
+    --main_color: #C4B2BC;
+    --main2_color: #D8D4F2;
+    --secondary_color: #A29587;
+    --secondary2_color: #846C5B;
+    }
+
+/* Content */
+.pair{
+    background-color: #332e3C;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.config{
+    display: flex;
+    gap: 25%;
+}
+
+.recommande{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.picture-for-card{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.picture-for-card a{
+    margin-left: 5px;
+}
+.region{
+    font-weight: bolder;
+    color: var(--secondary2_color);
+}
+.prix{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+h2{
+    color: var(--secondary2_color);
+    font-size: x-large;
+}
+
+h3{
+    color: var(--secondary2_color);
+    font-size: large;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    color: var(--main_color);
+}
+
+li ul li{
+    color: var(--main2_color);
+}
+
+.color-breadcrump{
+    color: var(--dark_color);
+    font-weight: bold;
+}
