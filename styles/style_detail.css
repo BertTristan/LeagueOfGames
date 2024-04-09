@@ -64,6 +64,37 @@ h3{
     font-size: large;
 }
 
+.stars-title{
+    display: flex;
+    gap: 50px;
+}
+.starts-icons{
+    display: flex;
+}
+.commentaires-div{
+    background-color: var(--dark_color);
+    margin-bottom: -15px;
+}
+.comm{
+    display: flex;
+    gap: 10px;
+    padding-top: 5px;
+}
+.comm img{
+    height: 20px;
+    width: 20px;
+}
+.comm p{
+    color: var(--main2_color);
+}
+.comm p.date {
+    color: var(--secondary_color);
+}
+.p-comm{
+    color: var(--secondary_color);
+    padding-bottom: 10px;
+}
+
 ul{
     list-style-type: none;
 }
@@ -80,3 +111,22 @@ li ul li{
     color: var(--dark_color);
     font-weight: bold;
 }
+
+.details{
+    display: flex;
+}
+
+.details img{
+    height: 400px;
+    margin-right: 20px;
+}
+
+.buy-div{
+    text-align: center;
+}
+
+.buy-div p{
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
